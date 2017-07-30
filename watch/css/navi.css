@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+.navBar{
+		position:relative;
+		z-index: 1;
+		color: #222;
+		height:112px;
+		width:100%;
+		}
+		.navBar a{
+			text-decoration:none;
+			}
+			li{
+				list-style-type:none;
+				}
+.nav{
+	width:auto;
+	height:112px;
+	margin:0 auto;
+	text-align:center;
+	vertical-align:middle;
+	padding:0;
+	}
+	
+	.nav h3 {
+			font-size: 100%;
+			font-weight: normal;
+			font-size: 16px;
+			line-height:112px;
+			padding:0;
+			margin:0;
+			vertical-align:middle;
+			}
+			
+	  .nav .m {
+			  position:relative;
+			  height:112px;
+			  display:block;
+			  float:left;
+			  text-align: center;
+			  font-size:16px;
+			  display:inline-block;
+			  margin:0 55px;
+			  
+			  }
+			  .nav h3 a{
+				  text-align:center;
+				  vertical-align:middle;
+				  height: 112px;
+				  display:inline-block;
+				  color:#222;
+				  }
+				  .nav h3 a:hover:before{
+					  -webkit-transform:scalex(1);
+					  transform::scalex(1);
+					  }
+					  .nav h3 a:hover{
+						  color:#31659c;
+						  }
+						  .nav h3 a:before{
+							  position:absolute;
+							  width:100%;
+							  height:0;
+							  left:0;
+							  bottom:-3px;
+							  content:"";
+							  border-bottom:3px solid #31659c;
+							  -webkit-transform:scaleX(0);
+							  transform:scaleX(0);
+							  -webkit-transition:-webkit-transform 0.25s ease;
+							  transition:transform 0.2s ease;
+							  }
+							  
+							  
+							 
+			
+/*当前状态*/
+.nav .on h3 a:link, .nav .on h3 a:visited {
+	color:#31659c;
+	border-bottom:3px solid #31659c;
+}
+.m:hover .sub{
+		  display:block;
+		  }
+.sub:hover .sub2{
+		  display:block;
+		  }
+
+/*二级*/
+
+ .nav .sub{
+	  position:absolute;
+	  display:none;
+	  top:115px;
+	  width:100%;
+	  text-align:center;
+	  color:#222;
+	  padding:0;
+	  height:50px;
+	  line-height:50px;
+	  border-bottom:1px #aaa dashed;
+	  } 
+	   .nav .sub li{
+		   text-align:center;
+		   }
+		   .nav .sub li a:link,.nav .sub li a:visited{
+			   display:block;
+			   color:#222;
+			   border-bottom:1px dashed #aaa;
+			   }
+			   .nav .sub li a:hover{
+				   color:#31659c;
+				   display:block;
+				   }
+	  
+
+/*三级*/
+.nav .sub2{
+	position:absolute;
+	  display:none;
+	  top:0px;
+	  left:100%;
+	  width:100%;
+	  text-align:center;
+	  color:#222;
+	  padding:0;
+	  height:50px;
+	  line-height:50px;
+	  border-bottom:1px #aaa dashed;
+	}	
+	.nav .sub2 li{
+		   text-align:center;
+		   }
+		   .nav .sub2 li a:link,.nav .sub2 li a:visited{
+			   display:block;
+			   color:#222;
+			   border-bottom:1px dashed #aaa;
+			   }
+			   .nav .sub2 li a:hover{
+				   color:#31659c;
+				   display:block;
+				   }

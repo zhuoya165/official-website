@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.slideBox {
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.slideBox .hd {
+	height:10px;
+	width:100%;
+	text-align:center;
+	overflow: hidden;
+	position:absolute;
+	top:90%;
+	z-index: 1;
+	margin:0 auto;
+}
+.slideBox .hd ul {
+	overflow: hidden;
+	zoom: 1;
+}
+.slideBox .hd ul li{
+	display:inline-block;
+	}
+.slideBox .hd ul li a{
+	text-decoration:none;
+	margin-right: 8px;
+	margin-left:8px;
+	width: 36px;
+	height: 10px;
+	text-align: center;
+	background:#222;
+	list-style-type:none;
+}
+.slideBox .hd ul li a:visited{
+	text-decoration:none;
+	color:#222;
+	list-style-type:none;
+	}
+.slideBox .hd ul li a:link{
+		text-decoration:none;
+		list-style-type:none;
+		}
+		.slideBox .hd ul li a:hover,.slideBox .hd ul li a:active{
+			color:#032746;
+			list-style-type:none;
+			s}
+.slideBox .hd ul li.on {
+	color: #032746;
+}
+.slideBox .bd {
+	position:relative;
+	display:inline-block;
+	height: 100%;
+	z-index: 0;
+	padding:0;
+	margin:0;
+}
+.slideBox .bd ul li{
+	width: 100%;
+	height: auto;
+}
+.slideBox .bd img {
+	width: 100%;
+	height: 100%;
+}
+

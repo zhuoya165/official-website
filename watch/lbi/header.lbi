@@ -1,0 +1,39 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--header-->
+<div class="header">
+  <div class="navBar">
+    <ul class="nav">
+        <li class="m"><h3><a href="../profile.html">关于我们</a></h3>
+          <ul class="sub">
+            <li><a href="../profile.html">企业介绍</a></li>
+            <li><a href="../culture.html">公司文化</a></li>
+            <li><a href="../development.html">发展历程</a></li>
+          </ul>
+        </li>
+        <li class="m"><h3><a href="../product_list.html">产品中心</a></h3>
+          <ul class="sub">
+            <li><a href="../product_list.html">雅尊商务</a></li>
+            <li><a href="../product_list.html">典美时尚</a></li>
+            <li><a href="../product_list.html">瑞冠运动</a></li>
+            <li><a href="../product_list.html">智能手表</a></li>
+          </ul>
+        </li>
+        <li class="m"><a href="../index.html"><img src="../img/logo.jpg"/></a></li>
+        <li class="m"><h3><a href="../personalized.html">服务中心</a></h3>
+          <ul class="sub">
+            <li><a href="../personalized.html">个性定制</a></li>
+            <li><a href="../service_user's-guide.html">使用说明</a></li>
+            <li><a href="../after-sales.html">售后服务</a></li>
+          </ul>
+        </li>
+        <li class="m"><h3><a href="../news_list.html">新闻资讯</a></h3>
+          <ul class="sub">
+            <li><a href="../news_list.html">公司新闻</a></li>
+            <li><a href="../news_list.html">行业新闻</a></li>
+            <li><a href="../news_list.html">行业新闻</a></li>
+          </ul>
+        </li>
+    </ul>
+  </div>
+</div>
+<!--end header-->
