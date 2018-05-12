@@ -1,0 +1,35 @@
+/*zoom.css----*/
+.zoomLens{
+	z-index:10;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:50px;
+	height:50px;
+	border:1px solid #aaa;
+	background:#fff 50% top no-repeat;
+	opacity:0.5;
+	-moz-opacity:0.5;
+	-khtml-opacity:0.5;
+	filter:alpha(Opacity=50);
+	cursor:move;
+	display:none;
+	margin:0;
+}
+.zoomBox{
+	z-index:99999;
+	position:absolute;
+	top:0;
+	left:0;
+	width:50px;
+	height:50px;
+	display:none;
+	overflow:hidden;
+	background-color:#fff;
+	border:1px solid #999;
+	margin:0;
+}
+.zoomBody{
+	position:relative;
+	text-align:center;
+}

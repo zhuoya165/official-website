@@ -1,0 +1,237 @@
+.pro_main {
+	width: 100%;
+}
+.pro_de{
+	width:1200px;
+	margin:0 auto;
+	}
+.content {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.detail {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.other {/*产品链接样样式*/
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.other {
+	line-height: 30px;
+}
+
+.pro_de_title h1{
+	font-size: 22px;
+	color: #333;
+	font-weight: normal;
+	line-height: 36px;
+	
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+.pro_de_info{
+	height: 340px;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 22px;
+	color: #666;
+    padding-bottom: 10px;
+	margin-bottom: 30px;
+	border-bottom:1px solid #ccc;
+}
+.pro_de_info h3{ font-size:20px; font-weight:normal; margin-bottom:10px;}
+.detail_button .buy{ display:block; width:130px; height:40px; float:left; color:#FFF; text-align:center; line-height:40px; background:#555; margin-right:20px;}
+.detail_button .buy:hover{ background:#222;}
+
+.products_detail_left {
+	width: 600px;/*详细大图宽度*/
+	float: left;
+}
+
+.tempWrap{
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	}
+.products_detail_right {
+	width: 550px;/*参数属性*/
+	float: right;
+}
+
+.products_detail_right .title{
+	width:100%;
+	border-bottom:1px dashed #CCC;
+	height:autopx;
+	margin-bottom:35px;
+}
+
+.products_detail_right .title h1{
+	line-height:35px;
+font-size:16px;
+}
+
+.products_detail_right h2{
+	padding-bottom:5px;
+	}
+
+
+.products_detail_right .dec ul li{
+	line-height:22px;
+	color:#999;
+	}
+
+
+.products_detail_right .color ul li{
+	float:left;
+	height:25px;
+	width:25px;
+	margin-right:5px;
+	}
+
+
+.products_detail_right .re_box ul li, .products_detail_right .hot_box ul li{
+	height:110px;
+	width:110px;
+	float:left;
+	margin-right:10px;
+	}
+
+.products_detail_right .re_box ul li img, .products_detail_right .hot_box ul li img{
+	height:110px;
+	width:110px;
+	}
+
+.pro_ex_box{
+	background:#FFF;
+	}
+
+.pro_ex_box .page_title{
+	width:100%;
+	border-bottom:1px dashed #CCC;
+	height:60px;
+	margin-bottom:15px;
+	}
+
+.pro_ex_box .page_title h1{
+	color:#000;
+	line-height:60px;
+	padding-left:15px;
+	}
+
+.pic_info_content ul li{
+	line-height:26px;}
+.pic_zoom {
+	position: relative;
+	height: 500px;/*大图高度*/
+	margin-bottom: 10px;
+	z-index: 99;
+}
+.pic_zoom img {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: auto;
+	height:100%;
+}
+.pic_zoom .zoom_icon {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 1px;
+	bottom: 1px;
+	background: url(../../img/common/Gui.gif) no-repeat 0px -220px;
+}
+.pic_zoom span img {
+	width: auto;
+	height:auto;
+}
+.pic_list {
+	width: 100%;
+	height: 80px;/*小图列表高度*/
+	position:relative;
+}
+.pic_list .pic_list_content {
+	width: 550px;/*小图列表宽度*/
+	height: 80px;
+	float: left;
+	overflow:hidden;
+}
+.pic_list .pic_list_content ul {
+}
+.pic_list ul li {
+	width: 90px;
+	height: 80px;
+	float: left;
+	overflow:hidden;
+}
+.pic_list ul li a{
+	display:block;
+	border: none;
+	padding: 1px;
+	background: #fff;
+	width: 80px;/*小图显示宽度*/
+	height: 80px;
+	margin:0px;
+	opacity:0.3;
+	-moz-opacity:0.3;
+	-khtml-opacity:0.3;
+	filter:alpha(Opacity=30);
+}
+.pic_list ul li a:hover{
+	border: none;
+	opacity:10.0;
+	-moz-opacity:10.0;
+	-khtml-opacity:10.0;
+	filter:alpha(Opacity=100);
+}
+.pic_list ul li img{
+	width: 80px;/*小图显示宽度*/
+	height: 80px;
+}
+.pic_list ul li a.current{
+	border: none;/*小图当前停留边框*/
+	opacity:10.0;
+	-moz-opacity:10.0;
+	-khtml-opacity:10.0;
+	filter:alpha(Opacity=100);
+}
+.pic_list a {
+	display: block;
+	width: 20px;
+	height: 80px;
+}
+.pic_list .prev {
+	margin-right:10px;
+	float:left;
+	background:url(../img/photo_btn.png) no-repeat 0px 0px;/*左箭头背景*/
+}
+
+.pic_list .prev:hover {
+	float:left;
+	background:url(../img/photo_btn.png) no-repeat 0px -80px;/*左箭头背景*/
+}
+
+.pic_list .next {
+	float:right;
+	background: url(../img/photo_btn.png) no-repeat -20px 0px;/*左箭头背景*/
+}
+
+.pic_list .next:hover{
+	float:right;
+	background:url(../img/photo_btn.png) no-repeat -20px -80px;/*左箭头背景*/
+}
+.pic_info ul li {/*参数属性文字样式*/
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 8px;
+}
+.pic_info ul .name {
+	
+}
+.pic_info ul li span {
+	vertical-align: top;
+}

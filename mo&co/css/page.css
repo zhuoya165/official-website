@@ -1,0 +1,46 @@
+/* CSS Document */
+@charset "utf-8";
+
+/* 分页样式 */
+/* pageGuide  
+--------------------------------------------------------------------*/
+.pageGuide{
+	width:100%;
+	font-size: 12px;
+	padding-top:25px;
+	padding-bottom:45px;
+	}
+.pageinfo{
+	float:left;
+	line-height:35px;
+	color:#aaa;
+	}
+.paging{
+	float:right;
+	text-align:right;}
+.paging a{
+	text-align: center;
+	display: inline-block;
+	margin-left: 5px;
+	height: 35px;
+	width: 55px;
+	line-height: 35px;
+	overflow: hidden;
+	_line-height: 17px;
+	font-size: 12px;
+	border: 1px solid #ddd;
+	}
+.paging .current:link, .paging .current:visited, .paging .current:active{
+	color: #fff;
+	background-color: #222;
+	border: 1px solid #222;
+	}
+.paging a:link, .paging a:visited, .paging a:active{
+	color:#666;
+	}
+.paging a:hover{
+	color: #fff;
+	background-color: #222;
+	border: 1px solid #222;
+	}
+

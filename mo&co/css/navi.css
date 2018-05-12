@@ -34,6 +34,7 @@
 				width: 0;
 				border-bottom: 3px solid #474747;
 				transition: all linear 0.5s;
+				-wedkit-transition: all linear 0.5s;
 			}
 			
 			.nav a:hover {
@@ -43,7 +44,9 @@
 			.nav a:hover:after {
 				left: 0;
 				width: 100%;
+				
 				transition: all linear 0.5s;
+				-wedkit-transition: all linear 0.5s;
 			}
 
 	.nav h3 {
@@ -91,3 +94,35 @@
 	text-decoration:none;
 }
 
+/*侧边栏导航*/
+.classify ul li.current{
+	background:url(../../img/common/list_li.gif) no-repeat -200px 0px;
+	border:1px solid #1b5eb1;
+}
+.classify ul li.current a.cur:link,.classify li.current a.cur:visited{
+	color:#fff;
+}
+
+.paging .current:link, .paging .current:visited, .paging .current:active{
+	color: #fff;
+	background-color: #222;
+	border: 1px solid #222;
+	}
+.paging a:link, .paging a:visited, .paging a:active{
+	color:#666;
+	}
+.paging a:hover{
+	color: #fff;
+	background-color: #222;
+	border: 1px solid #222;
+	}
+
+/* 主体布局部分 --------------*/
+h1 strong,h1 em,h2 strong,h2 em,h3 strong,h3 em,h4 strong,
+h4 em,h5 strong,h5 em,h6 strong,h6 em {
+	font-weight: inherit;
+	_font-weight: expression(this.parentNode.currentStyle.fontWeight);
+	*font-weight: expression(this.parentNode.currentStyle.fontWeight);
+}
+
+/* 主体布局部分 --------------*/

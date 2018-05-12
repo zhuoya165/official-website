@@ -1,16 +1,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!--header-->
 <div class="header">
-  <div class="log"><img src="../img/logo.jpg"/></div>
+  <div class="log wow animated" style="visibility: visible; animation-name: fadeInUp;"><img src="../img/logo.jpg"/></div>
   <div class="navBar">
-    <ul class="nav">
-        <li class="m"><h3><a href="../index.html">首页</a></h3></li>
-        <li class="m"><h3><a href="../campaign.html">店铺形象</a></h3></li>
-        <li class="m"><h3><a href="../product.html">产品中心</a></h3></li>
-        <li class="m"><h3><a href="../join-us.html">加入我们</a></h3></li>
-        <li class="m"><h3><a href="../news.html">新闻资讯</a></h3></li>
-        <li class="m"><h3><a href="../about-us.html">关于 MO&Co </a></h3></li>
-        <li class="m"><h3><a href="../contact-us.html">联系我们</a></h3></li>
+    <ul class="nav  wow animated" style="visibility: visible; animation-name: fadeInUp;">
+        <li class="m wow animated" style="visibility: visible; animation-name: fadeInUp;"><h3><a href="../index.html">首页</a></h3></li>
+        <li class="m wow animated" style="visibility: visible; animation-name: fadeInUp;"><h3><a href="../campaign.html">店铺形象</a></h3></li>
+        <li class="m wow animated" style="visibility: visible; animation-name: fadeInUp;"><h3><a href="../product.html">产品中心</a></h3></li>
+        <li class="m wow animated" style="visibility: visible; animation-name: fadeInUp;"><h3><a href="../join-us.html">加入我们</a></h3></li>
+        <li class="m wow animated" style="visibility: visible; animation-name: fadeInUp;"><h3><a href="../news.html">新闻资讯</a></h3></li>
+        <li class="m wow animated" style="visibility: visible; animation-name: fadeInUp;"><h3><a href="../about-us.html">关于 MO&Co </a></h3></li>
+        <li class="m wow animated" style="visibility: visible; animation-name: fadeInUp;"><h3><a href="../contact-us.html">联系我们</a></h3></li>
     </ul>
   </div>
 </div>

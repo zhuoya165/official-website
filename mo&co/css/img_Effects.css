@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+/*product list star*/
+.pro_list4 {
+	width:24.7%;
+	height:320px;
+	display:inline-block;
+	background-size:cover;
+	position:relative;
+	cursor:pointer;
+	transition:all 0.4s ease-out;
+	box-shadow:0px 25px 50px -17px rgba(0,0,0,0.44);
+	overflow:hidden;
+	color:#EBEBEB;
+	background:#000;
+}
+.pro_list4 img {
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	transition:all 0.4s ease-out;
+}
+.pro_list4 .text {
+	z-index:99;
+	position:absolute;
+	padding:30px;
+	height:calc(100% - 60px);
+}
+.pro_list4 h1 {
+	font-weight:300;
+	text-shadow:2px 2px 10px rgba(0,0,0,0.3);
+}
+.pro_list4 h2 {
+	font-weight:100;
+	margin-top:20px;
+	transform:translateX(200px);
+}
+.pro_list4 p {
+	font-weight:300;
+	margin-top:20px;
+	line-height:25px;
+	transform:translateX(-200px);
+	transition-delay:0.2s;
+}
+.animate-text {
+	opacity:0;
+	transition:all 0.6s ease-in-out;
+}
+.pro_list4:hover {
+	box-shadow:0px 35px 77px -17px rgba(0,0,0,0.64);
+	transform:scale(1.05);
+}
+.pro_list4:hover img {
+	opacity:0.2;
+}
+.pro_list4:hover .animate-text {
+	transform:translateX(0);
+	opacity:1;
+}
+.dots {
+	position:absolute;
+	bottom:20px;
+	right:30px;
+	margin:0 auto;
+	width:30px;
+	height:30px;
+	color:currentColor;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-around;
+}
+.dots span {
+	width:5px;
+	height:5px;
+	background-color:currentColor;
+	border-radius:50%;
+	display:block;
+	opacity:0;
+	transition:transform 0.4s ease-out,opacity 0.5s ease;
+	transform:translateY(30px);
+}
+.pro_list4:hover span {
+	opacity:1;
+	transform:translateY(0px);
+}
+.dots span:nth-child(1) {
+	transition-delay:0.05s;
+}
+.dots span:nth-child(2) {
+	transition-delay:0.1s;
+}
+.dots span:nth-child(3) {
+	transition-delay:0.15s;
+}
+
+/*product list end*/
+
+
+/*new list star*/
+
+.winBox {
+	width:100%;
+	height:320px;
+	overflow:hidden;
+	position:relative;
+}
+.scroll {
+	/*width的大小是根据下面li的长度和多少个li而定的，需注意！*/
+	width:2028px;
+	position:absolute;
+	left:0px;
+	top:0px;
+
+}
+.scroll li {
+	width:338px;
+	height:320px;
+	float:left;
+	line-height:40px;
+	text-align:center;
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+.scroll li img{
+	width:338px;
+	height:100%;
+}
+
+/*new list end*/
+
+
+/*join us list
+----------------------------------------------------------------*/	
+/*join_us_list
+----------------------------------------------------------------*/	
+.join_us_list .join_us_list_main{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	}
+.join_us_list .join_us_list_main ul li{
+	text-align:center;
+	margin-right:20px;
+	margin-bottom:20px;
+	width:377px;
+	height: 291px;
+	float:left;
+	border:solid 1px #eee;
+	-webkit-transition: all 0.3s linear -1ms;
+	-moz-transition: all 0.3s linear -1ms;
+	-ms-transition: all 0.3s linear -1ms;
+	-o-transition: all 0.3s linear -1ms;
+	transition: all 0.3s linear -1ms;
+}
+.join_us_list .join_us_list_main ul li:hover{
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+	}
+.join_us_list .join_us_list_main ul li .pic{
+	position:relative;
+	overflow:hidden;
+	width:375px;
+	height: 180px;
+	padding:2px; 
+	}
+.join_us_list .join_us_list_main ul li .pic img{
+	width:375px;
+	height: 180px;
+	-webkit-transition: all 0.5s linear -1ms;
+	-moz-transition: all 0.5s linear -1ms;
+	-ms-transition: all 0.5s linear -1ms;
+	-o-transition: all 0.5s linear -1ms;
+	transition: all 0.5s linear -1ms;
+	}
+.join_us_list .join_us_list_main ul li:hover .pic{
+	}
+.join_us_list .join_us_list_main ul li:hover .pic img{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	zoom: 1.1\9; /* IE 8 */
+	overflow:hidden;
+	}
+.join_us_list .main_join_us_list{
+	padding:0px 10px;
+	float:right;
+
+}
+.join_us_list .main_join_us_list h3.title{
+	margin-top:5px;	
+	font-size: 16px;
+	line-height:40px;
+	height: 40px;
+	font-weight:normal;
+}
+.join_us_list .main_join_us_list p{
+	line-height: 24px;
+	font-size: 14px;
+	margin-top:5px;
+	}
+.join_us_list .main_join_us_list h3.title a{
+	text-decoration:none;
+	}
+.join_us_list ul li:hover .main_join_us_list h3.title a{
+	text-decoration:none;
+	font-size:18px;
+	}
+	
+	.join_us_img{
+		width:1175px;
+		height:650px;
+		}
+		.join_us_img img{
+			width:100%;
+			height:auto;
+			}
