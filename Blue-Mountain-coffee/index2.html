@@ -1,0 +1,966 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="http://nutri-era.com/img/favicon.ico" type="image/x-icon">
+    <title>Blue Mountain coffee</title>
+    <meta name="keywords" content="Blue Mountain coffee">
+    <meta name="description" content="Blue Mountain coffee">
+    <link rel="stylesheet" type="text/css" href="brus/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="brus/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="brus/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="brus/docs.css">
+     <link rel="stylesheet" type="text/css" href="brus/responsive.css">
+    <link rel="stylesheet" type="text/css" href="brus/swiper.min.css">
+     <link rel="stylesheet" type="text/css" href="brus/responsive.tabs.css">
+    <link rel="stylesheet" type="text/css" href="brus/style.css">
+     <link rel="stylesheet" type="text/css" href="brus/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="brus/swipebox.min.css">
+     <script src="./广州市联鲲生物科技有限公司_files/hm.js"></script><script src="./广州市联鲲生物科技有限公司_files/jquery-1.11.3.min.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/bootstrap.min.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/main.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/wow.min.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/jquery.flexslider-min.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/jquery.fancybox.pack.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/responsive.tabs.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/jquery.waypoints.min.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/swiper.jquery.min.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/swiper.animate1.0.2.min.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/jquery.swipebox.min.js" type="text/javascript"></script>
+     <script>
+         if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+             new WOW().init();
+         };
+	</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#invalid_keywords").focus(function () {
+                var val = $(this).val();
+                if (val == "请输入关键字...") {
+                    $(this).val("");
+                }
+            }).blur(function () {
+                var val = $(this).val();
+                val = val.replace(/^\s*|\s*$/ig, "");
+                if (val == "") {
+                    $(this).val("请输入关键字...");
+                }
+            });
+            $("#invalid_search").click(function () {
+                search();
+            });
+            $("#invalid_keywords").keydown(function (e) {
+                if (e.keyCode == 13) {
+                    search();
+                }
+            });
+        });
+        function search() {
+            var keywrod = $("#invalid_keywords").val();
+            if (keywrod == "请输入关键字...") {
+                alert("请输入您要查询的关键字");
+                return false;
+            } else {
+                var categoryId = $("#invalid_categorys").val();
+                self.location.href = '/Products.aspx?keywords=' + escape(keywrod);
+            }
+        }
+    </script>
+
+
+    
+
+<script src="./广州市联鲲生物科技有限公司_files/bsStatic.js" type="text/javascript" charset="utf-8"></script><style type="text/css">.fancybox-margin{margin-right:0px;}</style><script src="./广州市联鲲生物科技有限公司_files/fingerprint2.min.js" type="text/javascript" charset="utf-8"></script><script src="./广州市联鲲生物科技有限公司_files/bs-engine.js" type="text/javascript" charset="utf-8"></script></head>
+
+<body>
+ <div class="fh5co-loader" style="display: none;"></div>
+    <div id="page"><a href="http://nutri-era.com/#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a><div id="fh5co-offcanvas"><ul>
+                                 
+									<li class="offcanvas-has-dropdown">
+										<a href="javascript:void(0)" title="鲲式服务" target="_self" class="">鲲式服务</a>   
+                                                                        
+										<ul class="dropdown">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/Service_1001.html" title="解决方案" target="_self" class="">解决方案</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Concept_1002.html" title="服务理念" target="_self" class="">服务理念</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Team_1003.html" title="服务团队" target="_self" class="">服务团队</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="offcanvas-has-dropdown">
+										<a href="javascript:void(0)" title="联鲲创新" target="_self" class="">联鲲创新</a>   
+                                                                        
+										<ul class="dropdown">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html" title="创新产品" target="_self" class="">创新产品</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html#title02" title="创新案例" target="_self" class="">创新案例</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html#title03" title="技术研发" target="_self" class="">技术研发</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html#title04" title="员工发表论文" target="_self" class="">员工发表论文</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1020.html" title="专业期刊" target="_self" class="">专业期刊</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="offcanvas-has-dropdown">
+										<a href="javascript:void(0)" title="品质保证" target="_self" class="">品质保证</a>   
+                                                                        
+										<ul class="dropdown">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html" title="精选原料" target="_self" class="">精选原料</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage02" title="精准配方" target="_self" class="">精准配方</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage03" title="精益生产" target="_self" class="">精益生产</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage04" title="精密检测" target="_self" class="">精密检测</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage05" title="精细管理" target="_self" class="">精细管理</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="offcanvas-has-dropdown">
+										<a href="javascript:void(0)" title="专业会议" target="_self" class="">专业会议</a>   
+                                                                        
+										<ul class="dropdown">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/Products_104.html" title="联鲲水产饲料技术研讨会" target="_self" class="">联鲲水产饲料技术研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1018.html" title="国际鱼类营养与饲料学术研讨会" target="_self" class="">国际鱼类营养与饲料学术研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1019.html" title="世界华人鱼虾营养学术研讨会" target="_self" class="">世界华人鱼虾营养学术研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1021.html" title="水产养殖营养国际研讨会" target="_self" class="">水产养殖营养国际研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Products_1022.html" title="高峰论坛" target="_self" class="">高峰论坛</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="offcanvas-has-dropdown">
+										<a href="javascript:void(0)" title="关于我们" target="_self" class="">关于我们</a>   
+                                                                        
+										<ul class="dropdown">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/AboutUs_1012.html" title="品牌故事" target="_self" class="">品牌故事</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/News_1013.html" title="新闻动态" target="_self" class="">新闻动态</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Join_1014.html" title="加入我们" target="_self" class="">加入我们</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/ContactUs_1015.html" title="联系我们" target="_self" class="">联系我们</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="btn-search">
+									<div class="form">
+											<input id="invalid_keywords" placeholder="请输入关键字...">
+											<a class="item-btn fa fa-search" id="invalid_search" href="javascript:void(0)"></a>
+										</div>
+									</li>
+									<li class="btn-cta">
+										<div class="select">
+											<span class="placeholder">Chinese</span>
+											<ul class="yuyan">
+												<li>
+													<a class="cn" href="./广州市联鲲生物科技有限公司_files/广州市联鲲生物科技有限公司.html"><img src="./广州市联鲲生物科技有限公司_files/icon_ch.png" title="" alt="" class=""><span>中文</span></a>
+												</li>
+												<li>
+													<a class="en" href="http://nutri-era.com/en/"><img src="./广州市联鲲生物科技有限公司_files/icon_en.png" title="" alt="" class=""><span>英文</span></a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul></div>
+		<header id="header" class="fixed">
+			<nav class="fh5co-nav" role="navigation">
+				<div class="top-menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-2">
+								<div id="fh5co-logo"><a href="./广州市联鲲生物科技有限公司_files/广州市联鲲生物科技有限公司.html" title="广州市联鲲生物科技有限公司" target="_self" class=""><img src="./广州市联鲲生物科技有限公司_files/logo.png" title="广州市联鲲生物科技有限公司" alt="广州市联鲲生物科技有限公司" class=""></a></div>
+							</div>
+							<div class="col-xs-10 text-right menu-1">
+								<ul>
+                                 
+									<li class="has-dropdown ">
+										<a href="http://nutri-era.com/Service_1001.html" title="鲲式服务" target="_self" class="pc_nav">鲲式服务</a>    
+                                                                          
+										<ul class="dropdown" style="display: none;">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/Service_1001.html" title="解决方案" target="_self" class="">解决方案</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Concept_1002.html" title="服务理念" target="_self" class="">服务理念</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Team_1003.html" title="服务团队" target="_self" class="">服务团队</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="has-dropdown ">
+										<a href="http://nutri-era.com/NewProducts_102.html" title="联鲲创新" target="_self" class="pc_nav">联鲲创新</a>    
+                                                                          
+										<ul class="dropdown" style="display: none;">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html" title="创新产品" target="_self" class="">创新产品</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html#title02" title="创新案例" target="_self" class="">创新案例</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html#title03" title="技术研发" target="_self" class="">技术研发</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html#title04" title="员工发表论文" target="_self" class="">员工发表论文</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1020.html" title="专业期刊" target="_self" class="">专业期刊</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="has-dropdown ">
+										<a href="http://nutri-era.com/InfoPages_1007.html" title="品质保证" target="_self" class="pc_nav">品质保证</a>    
+                                                                          
+										<ul class="dropdown" style="display: none;">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html" title="精选原料" target="_self" class="">精选原料</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage02" title="精准配方" target="_self" class="">精准配方</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage03" title="精益生产" target="_self" class="">精益生产</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage04" title="精密检测" target="_self" class="">精密检测</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage05" title="精细管理" target="_self" class="">精细管理</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="has-dropdown ">
+										<a href="http://nutri-era.com/Products_104.html" title="专业会议" target="_self" class="pc_nav">专业会议</a>    
+                                                                          
+										<ul class="dropdown" style="display: none;">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/Products_104.html" title="联鲲水产饲料技术研讨会" target="_self" class="">联鲲水产饲料技术研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1018.html" title="国际鱼类营养与饲料学术研讨会" target="_self" class="">国际鱼类营养与饲料学术研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1019.html" title="世界华人鱼虾营养学术研讨会" target="_self" class="">世界华人鱼虾营养学术研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1021.html" title="水产养殖营养国际研讨会" target="_self" class="">水产养殖营养国际研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Products_1022.html" title="高峰论坛" target="_self" class="">高峰论坛</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="has-dropdown ">
+										<a href="http://nutri-era.com/AboutUs_1012.html" title="关于我们" target="_self" class="pc_nav">关于我们</a>    
+                                                                          
+										<ul class="dropdown" style="display: none;">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/AboutUs_1012.html" title="品牌故事" target="_self" class="">品牌故事</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/News_1013.html" title="新闻动态" target="_self" class="">新闻动态</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Join_1014.html" title="加入我们" target="_self" class="">加入我们</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/ContactUs_1015.html" title="联系我们" target="_self" class="">联系我们</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="btn-search">
+									<div class="form">
+											<input id="invalid_keywords" placeholder="请输入关键字...">
+											<a class="item-btn fa fa-search" id="invalid_search" href="javascript:void(0)"></a>
+										</div>
+									</li>
+									<li class="btn-cta">
+										<div class="select">
+											<span class="placeholder">Chinese</span>
+											<ul class="yuyan">
+												<li>
+													<a class="cn" href="./广州市联鲲生物科技有限公司_files/广州市联鲲生物科技有限公司.html"><img src="./广州市联鲲生物科技有限公司_files/icon_ch.png" title="" alt="" class=""><span>中文</span></a>
+												</li>
+												<li>
+													<a class="en" href="http://nutri-era.com/en/"><img src="./广州市联鲲生物科技有限公司_files/icon_en.png" title="" alt="" class=""><span>英文</span></a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>                               
+
+							</div>
+
+                            <div class="col-xs-10 text-right menu-1 menu-m" style=" display:none;">
+								<ul>
+                                 
+									<li class="has-dropdown ">
+										<a href="javascript:void(0)" title="鲲式服务" target="_self" class="">鲲式服务</a>   
+                                                                        
+										<ul class="dropdown">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/Service_1001.html" title="解决方案" target="_self" class="">解决方案</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Concept_1002.html" title="服务理念" target="_self" class="">服务理念</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Team_1003.html" title="服务团队" target="_self" class="">服务团队</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="has-dropdown ">
+										<a href="javascript:void(0)" title="联鲲创新" target="_self" class="">联鲲创新</a>   
+                                                                        
+										<ul class="dropdown">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html" title="创新产品" target="_self" class="">创新产品</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html#title02" title="创新案例" target="_self" class="">创新案例</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html#title03" title="技术研发" target="_self" class="">技术研发</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/NewProducts_102.html#title04" title="员工发表论文" target="_self" class="">员工发表论文</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1020.html" title="专业期刊" target="_self" class="">专业期刊</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="has-dropdown ">
+										<a href="javascript:void(0)" title="品质保证" target="_self" class="">品质保证</a>   
+                                                                        
+										<ul class="dropdown">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html" title="精选原料" target="_self" class="">精选原料</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage02" title="精准配方" target="_self" class="">精准配方</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage03" title="精益生产" target="_self" class="">精益生产</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage04" title="精密检测" target="_self" class="">精密检测</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1007.html#manage05" title="精细管理" target="_self" class="">精细管理</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="has-dropdown ">
+										<a href="javascript:void(0)" title="专业会议" target="_self" class="">专业会议</a>   
+                                                                        
+										<ul class="dropdown">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/Products_104.html" title="联鲲水产饲料技术研讨会" target="_self" class="">联鲲水产饲料技术研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1018.html" title="国际鱼类营养与饲料学术研讨会" target="_self" class="">国际鱼类营养与饲料学术研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1019.html" title="世界华人鱼虾营养学术研讨会" target="_self" class="">世界华人鱼虾营养学术研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/InfoPages_1021.html" title="水产养殖营养国际研讨会" target="_self" class="">水产养殖营养国际研讨会</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Products_1022.html" title="高峰论坛" target="_self" class="">高峰论坛</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="has-dropdown ">
+										<a href="javascript:void(0)" title="关于我们" target="_self" class="">关于我们</a>   
+                                                                        
+										<ul class="dropdown">
+											 
+                            <li>
+                                <a href="http://nutri-era.com/AboutUs_1012.html" title="品牌故事" target="_self" class="">品牌故事</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/News_1013.html" title="新闻动态" target="_self" class="">新闻动态</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/Join_1014.html" title="加入我们" target="_self" class="">加入我们</a></li>
+                            
+                            <li>
+                                <a href="http://nutri-era.com/ContactUs_1015.html" title="联系我们" target="_self" class="">联系我们</a></li>
+                            
+										</ul>
+                                        
+									</li>								
+                                 
+									<li class="btn-search">
+									<div class="form">
+											<input id="invalid_keywords" placeholder="请输入关键字...">
+											<a class="item-btn fa fa-search" id="invalid_search" href="javascript:void(0)"></a>
+										</div>
+									</li>
+									<li class="btn-cta">
+										<div class="select">
+											<span class="placeholder">Chinese</span>
+											<ul class="yuyan">
+												<li>
+													<a class="cn" href="./广州市联鲲生物科技有限公司_files/广州市联鲲生物科技有限公司.html"><img src="./广州市联鲲生物科技有限公司_files/icon_ch.png" title="" alt="" class=""><span>中文</span></a>
+												</li>
+												<li>
+													<a class="en" href="http://nutri-era.com/en/"><img src="./广州市联鲲生物科技有限公司_files/icon_en.png" title="" alt="" class=""><span>英文</span></a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>                               
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</nav>
+		</header>
+    
+<div class="container-content">
+
+            <section class="slider-banner">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="swiper-container swiper-banners swiper-container-horizontal">
+                            <div class="swiper-wrapper" style="transform: translate3d(-1349px, 0px, 0px); transition-duration: 0ms;">
+                            
+                                <div class="swiper-slide swiper-slide-prev" style="width: 1349px;">
+                                    <img src="img/banner1 .jpg" title="联鲲 — 水产饲料经营服务专家" alt="联鲲 — 水产饲料经营服务专家" class="">
+                                    <div class="slide_text">
+                                        <div class="slide_text_title ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" swiper-animate-style-cache=" " style="visibility: hidden;">联鲲 — 水产饲料经营服务专家</div>
+                                        <div class="slide_text_desc ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s" swiper-animate-style-cache=" " style="visibility: hidden;"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-slide swiper-slide-active" style="width: 1349px;">
+                                    <img src="img/banner1 .jpg" title="" alt="" class="">
+                                    <div class="slide_text">
+                                        <div class="slide_text_title ani fadeInUp animated" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" swiper-animate-style-cache=" " style="visibility: visible;animation-duration:0.5s;-webkit-animation-duration:0.5s;animation-delay:0.3s;-webkit-animation-delay:0.3s;"></div>
+                                        <div class="slide_text_desc ani fadeInUp animated" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s" swiper-animate-style-cache=" " style="visibility: visible;animation-duration:0.8s;-webkit-animation-duration:0.8s;animation-delay:0.8s;-webkit-animation-delay:0.8s;"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-slide swiper-slide-next" style="width: 1349px;">
+                                    <img src="img/banner1 .jpg" title="" alt="" class="">
+                                    <div class="slide_text">
+                                        <div class="slide_text_title ani                                                                                                                                                                                                                            " swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" swiper-animate-style-cache=" " style="visibility: hidden;"></div>
+                                        <div class="slide_text_desc ani                                                                                                                                                                                                                            " swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s" swiper-animate-style-cache=" " style="visibility: hidden;"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-slide" style="width: 1349px;">
+                                    <img src="img/banner1 .jpg" title="联鲲—让世界水产聆听中国的声音" alt="联鲲—让世界水产聆听中国的声音" class="">
+                                    <div class="slide_text">
+                                        <div class="slide_text_title ani                                                                                                                                                                                                                            " swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" swiper-animate-style-cache=" " style="visibility: hidden;">联鲲—让世界水产聆听中国的声音</div>
+                                        <div class="slide_text_desc ani                                                                                                                                                                                                                            " swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s" swiper-animate-style-cache=" " style="visibility: hidden;"></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination swiper-pagination-banners swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+                            <!-- Add Arrows -->
+
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Start item-about-->
+            <section class="item-about">
+                <div class="container">
+                    <div class="row">
+                        <div class="common-title wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                            <h2>
+                                ABOUT US
+                            </h2>
+                            <p>
+                                Latest News
+                            </p>
+                            <div class="title-line"></div>
+                        </div>
+                        <div class="about-main">
+                        <div class="col-md-7 col-sm-6 col-xs-12 pull-left wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+                                <div class="about-list">
+                                   <a href="http://nutri-era.com/News/Show_243.html" title="联鲲集团专家应邀参加2018年亚太水产年会并作专题报告">
+                                       <span class="about-content">
+                                           <h3>Blue Mountain® Coffee</h3>
+                                           <p>Toward the eastern end of the beautiful island of </p>
+<p>Jamaica runs the majestic range of hills known </p>
+<p>as the Blue Mountains.At 5,500 feet the land </p>
+<p>is thickly wooded and maintained as ...</p>
+                                       </span>
+                                   </a>
+                                        
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="col-md-5 col-sm-6 col-xs-12 pull-right wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+                                <div class="swiper-container swiper-about swiper-container-horizontal">
+                                    <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                                    
+                                        <div class="swiper-slide swiper-slide-active" style="width: 458px;">
+                                         <a href="http://nutri-era.com/News/Show_243.html" title="联鲲集团专家应邀参加2018年亚太水产年会并作专题报告" target="_self" class=""><img src="img/index_abpic.jpg" title="联鲲集团专家应邀参加2018年亚太水产年会并作专题报告" alt="联鲲集团专家应邀参加2018年亚太水产年会并作专题报告" class="img-responsive"></a>
+                                           
+                                            <div class="txt">
+                                              联鲲集团专家应邀参加2018年亚太水产年...
+                                            </div>                                    
+                                        </div>
+                                     
+                                        <div class="swiper-slide swiper-slide-next" style="width: 458px;">
+                                         <a href="http://nutri-era.com/News/Show_241.html" title="2018中国首届巴沙鱼营养与饲料技术研讨会 胜利召开" target="_self" class=""><img src="img/index_abpic.jpg" title="2018中国首届巴沙鱼营养与饲料技术研讨会 胜利召开" alt="2018中国首届巴沙鱼营养与饲料技术研讨会 胜利召开" class="img-responsive"></a>
+                                           
+                                            <div class="txt">
+                                              2018中国首届巴沙鱼营养与饲料技术研讨...
+                                            </div>                                    
+                                        </div>
+                                     
+                                        <div class="swiper-slide" style="width: 458px;">
+                                         <a href="http://nutri-era.com/News/Show_236.html" title="喜讯：广州联鲲顺利通过“国家高新技术企业认定”" target="_self" class=""><img src="img/index_abpic.jpg" title="喜讯：广州联鲲顺利通过“国家高新技术企业认定”" alt="喜讯：广州联鲲顺利通过“国家高新技术企业认定”" class="img-responsive"></a>
+                                           
+                                            <div class="txt">
+                                              喜讯：广州联鲲顺利通过“国家高新技术...
+                                            </div>                                    
+                                        </div>
+                                     
+                                        <div class="swiper-slide" style="width: 458px;">
+                                         <a href="http://nutri-era.com/News/Show_234.html" title="2018’中国水产饲料企业产品升级与经营转型高峰论坛胜利召开" target="_self" class=""><img src="img/index_abpic.jpg" title="2018’中国水产饲料企业产品升级与经营转型高峰论坛胜利召开" alt="2018’中国水产饲料企业产品升级与经营转型高峰论坛胜利召开" class="img-responsive"></a>
+                                           
+                                            <div class="txt">
+                                              2018’中国水产饲料企业产品升级与经营...
+                                            </div>                                    
+                                        </div>
+                                     
+                                    </div>
+                                    <div class="swiper-pagination  swiper-pagination-about swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+                                    
+                                </div>
+                            </div>
+
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End item-news-->
+
+
+            <!--Start item-manage-->
+            <section class="item-manage">
+                <div class="container">
+                    <div class="row">
+                        <div class="common-title wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                            <h2>
+                                五精管理
+                            </h2>
+                            <p>
+                                Five fine management
+                            </p>
+                            <div class="title-line"></div>
+                        </div>
+                        <div class="manage-main">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="box01 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+                                
+                                    <div class="item-content pull-top">
+                                        <a href="http://nutri-era.com/InfoPages_1007.html" title="精选原料">
+                                             <img src="img/index_pro1.jpg" title="精选原料" alt="精选原料" class="img-responsive">
+                                            <div class="item-txt">
+                                                <div>
+                                                    <h3>精选原料</h3>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="item-content pull-bottom">
+                                        <a href="http://nutri-era.com/InfoPages_1007.html" title="精准配方">
+                                             <img src="img/index_pro2.jpg" title="精准配方" alt="精准配方" class="img-responsive">
+                                            <div class="item-txt">
+                                                <div>
+                                                    <h3>精准配方</h3>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                      
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                            
+                                <div class="box02 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="item-content pull-middle">
+                                        <a href="http://nutri-era.com/InfoPages_1007.html" title="精益生产">
+                                             <img src="img/index_pro3.jpg" title="精益生产" alt="精益生产" class="img-responsive">
+                                            <div class="item-txt">
+                                                <div>
+                                                    <h3>精益生产</h3>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                  
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                <div class="box03 wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+                                
+                                    <div class="item-content pull-left">
+                                        <a href="http://nutri-era.com/InfoPages_1007.html" title="精密检测">
+                                             <img src="img/index_pro1.jpg" title="精密检测" alt="精密检测" class="img-responsive">
+                                            <div class="item-txt">
+                                                <div>
+                                                    <h3>精密检测</h3>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                      
+                                    <div class="item-content pull-right">
+                                        <a href="http://nutri-era.com/InfoPages_1007.html" title="精细管理">
+                                             <img src="img/index_pro2.jpg" title="精细管理" alt="精细管理" class="img-responsive">
+                                            <div class="item-txt">
+                                                <div>
+                                                    <h3>精细管理</h3>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                      
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End item-manage-->
+        
+            <!--Start item-story-->
+            <section class="item-story">
+                <div class="container">
+                    <div class="row">
+                        <div class="common-title wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                            <h2>
+                                about our coffee
+                            </h2>
+                            <div class="item-word">Green Coffee Bean Specification</div>
+                            <div class="title-line"></div>
+                             <p>Coffee grown in the specially designated area of the Blue Mountains. </p><p>The coffee has blue green color, good acidity, intense aroma, fairly good body, clean.
+</p><p>Blue Mountain No. 1,Blue Mountain No. 2,Blue Mountain Peaberry</p>
+                        </div>
+                        <div class="story-main col-xs-12">
+                            <div class="item-text wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                              <p>Blue Mountain No. 1
+</p><p>Beans of Screen 17/18 sizes with maximum defects of 2% </p><p>and maximum of 4% smaller (lower case) beans.</p><p>Blue Mountain No. 2</p>
+<p>Beans of Screen 16 sizes with maximum defects of 2% </p>
+<p>and a maximum of 4% smaller (lower case) beans.</p><p>Blue Mountain Peaberry</p>
+<p>Beans from single seed berries with Screen 10s size. Maximum of 2% defects and a maximum of 4% smaller (lower case) beans.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End item-story-->
+
+
+        </div>
+
+
+<script type="text/javascript">
+    $(document).ready(function (e) {
+        var swiper = new Swiper('.swiper-banners', {
+            pagination: '.swiper-pagination-banners',
+            autoplay: 4500,
+            paginationClickable: true,
+            onInit: function (swiper) {
+                swiperAnimateCache(swiper); //隐藏动画元素 
+                swiperAnimate(swiper); //初始化完成开始动画
+            },
+            onSlideChangeEnd: function (swiper) {
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            }
+        });
+        var swiperCert = new Swiper('.swiper-cert', {
+            autoplay: 4500,
+            paginationClickable: true,
+            slidesPerView: 'auto',
+            nextButton: '.swiper-button-next-cert',
+            prevButton: '.swiper-button-prev-cert',
+        });
+        var swiperpartner = new Swiper('.swiper-partner', {
+            autoplay: 4500,
+            paginationClickable: true,
+            slidesPerView: 'auto',
+            nextButton: '.swiper-button-next-partner',
+            prevButton: '.swiper-button-prev-partner',
+        });
+        var swipernews = new Swiper('.swiper-news', {
+            pagination: '.swiper-pagination-news',
+            autoplay: 4500,
+            paginationClickable: true,
+            slidesPerView: 1
+        });
+        var swiperLinks = new Swiper('.swiper-links', {
+            autoplay: 4500,
+            paginationClickable: true,
+            slidesPerView: 'auto',
+            nextButton: '.swiper-button-next-links',
+            prevButton: '.swiper-button-prev-links',
+        });
+        $(".swipebox").swipebox({ useSVG: false });
+    });
+    </script>
+      <!-- Add fancyBox main JS and CSS files -->
+  
+    <div id="Video" class="video-box">
+       <video src="/video/movie_cn.mp4" preload="none" controls=""><embed src="/video/movie_cn.mp4" autostart="false" hidden="false"></video>
+    </div>
+
+
+<footer class="footer">
+		  <div class="container">
+			 <div class="row">
+				 <div class="col-md-3 col-sm-4 col-xs-12 pull-right">
+				 	 <div class="item-share">
+				 	 	<div class="bshare-custom"><div class="bsPromo bsPromo2"></div>
+							<a title="分享到微信" class="bshare-weixin"></a>
+							<a title="分享到新浪微博" class="bshare-sinaminiblog"></a>
+							<a title="分享到QQ空间" class="bshare-qzone"></a>
+							<a title="分享到腾讯微博" class="bshare-qqmb"></a>
+							<a title="分享到人人网" class="bshare-renren"></a>
+						</div>
+						<script type="text/javascript" charset="utf-8" src="./广州市联鲲生物科技有限公司_files/buttonLite.js"></script>
+						<script type="text/javascript" charset="utf-8" src="./广州市联鲲生物科技有限公司_files/bshareC0.js"></script>
+				 	 </div>
+				 </div>
+				 <div class="col-md-9 col-sm-8 col-xs-12 pull-left">
+					<div class="page-link">
+						<a href="http://nutri-era.com/ContactUs_1015.html" title="联系我们" target="_self" class="">联系我们</a> |
+					
+                        <a href="javascript:void(0)" title="法律声明" target="_self" class="">法律声明</a>
+					</div>
+					<div class="page-fluid">
+					<p>© 2017 广州市联鲲生物科技有限公司. All rights reserved.&nbsp;<a href="http://gdcainfo.miitbeian.gov.cn/" target="_blank" textvalue="粤ICP备17088573号">粤ICP备17088573号</a></p>
+					</div>
+				</div>
+			 </div>
+		  </div>
+		</footer>
+    </div>
+
+    <div class="customers">
+        <div class="customer_item">
+            <a href="http://nutri-era.com/#Message" class="wechat qq fancybox">&nbsp;</a>
+          
+        </div>
+        <div class="customer_item">
+            <a href="javascript:void(0)" class="wechat">&nbsp;</a>
+            <div class="wechat_qrcode"><img src="./广州市联鲲生物科技有限公司_files/qrcode.png" title="" alt="" class=""></div>
+        </div>
+        <div class="customer_item">
+        <a href="mailto:nutriera@126.com" title="邮箱" target="_self" class="address">&nbsp;</a></div>
+        <div class="customer_item"><a href="javascript:goTop();" class="backTop sidetop">&nbsp;</a></div>
+    </div>
+    <div id="Message" class="video-box">
+        <div class="text-title">留下您的宝贵意见</div>
+		<div class="item-form">
+			 <form id="onlineMessagest">
+				<ul>
+					<li class="col-md-4 col-sm-4 col-xs-12 name">
+						<input class="input" placeholder="您的姓名" name="customerName">
+					</li>
+					<li class="col-md-4 col-sm-4 col-xs-12 tel">
+						<input class="input" placeholder="联系电话" name="tel">
+					</li>
+					<li class="col-md-4 col-sm-4 col-xs-12 email">
+						<input class="input" placeholder="电子邮箱" name="email">
+					</li>
+					<li class="col-md-12 col-sm-12 col-xs-12 text">
+						<textarea class="textarea" placeholder="留言内容" name="details"></textarea>
+					</li>
+				</ul>
+				<div class="col-md-12 col-sm-12 col-xs-12 submit">
+					<a href="javascript:void(0)" class="submit-button" id="Submitt">提 交</a>
+				</div>
+			</form>
+		</div>
+    </div>
+    <script type="text/javascript">
+        //回到顶部
+        function goTop() {
+            $('html,body').animate({ 'scrollTop': 0 }, 600); //滚回顶部的时间，越小滚的速度越快~
+        }
+	</script>
+    <!--End 在线客服-->
+   
+    <a title="回到顶部" class="top" href="http://nutri-era.com/#top"></a>
+    <!--End top-->
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b443d423a88a9ae8f6c5bb440e6e7fe0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+     <script src="./广州市联鲲生物科技有限公司_files/jquery.fancybox.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="./广州市联鲲生物科技有限公司_files/jquery.fancybox.css">
+     <script src="./广州市联鲲生物科技有限公司_files/fancybox_app.js" type="text/javascript"></script>
+     <script src="./广州市联鲲生物科技有限公司_files/jquery.scrollUp.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".placeholder").click(function () {
+                if ($(this).hasClass("opened")) {
+                    $(".yuyan").slideUp(300);
+                    $(this).removeClass("opened");
+                } else {
+                    $(".yuyan").slideDown(300);
+                    $(this).addClass("opened");
+                }
+
+            });
+            /*头部下拉框功能*/
+
+            $("#fh5co-offcanvas .offcanvas-has-dropdown").click(function () {
+                if ($(this).hasClass("active")) {
+                    $(this).children(".dropdown").slideUp(300);
+                    $(this).removeClass("active");
+                } else {
+                    $(this).children(".dropdown").slideDown(300);
+                    $(this).addClass("active");
+                }
+
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".code img").click(function () {
+                changeValidateCode();
+            });
+            $("#Submitt").click(function () {
+                var data = $("#onlineMessagest").serialize();
+                var url = '/ajax/ajaxOnlineMessages.ashx?mid=1015flag=' + Math.random();
+                $.ajax({
+                    type: "POST",
+                    data: data,
+                    url: url,
+                    success: function (msg) {
+                        if (msg.Completed) {
+                            alert("请求提交成功,感谢您的留言.");
+                            self.location.reload(true);
+                        } else {
+                            changeValidateCode();
+                            alert(msg.Msg);
+                        }
+                    },
+                    error: function () {
+                        changeValidateCode();
+                        alert("网络异常导致请求错误,请重试.");
+                    }
+                });
+            });
+        });
+        function changeValidateCode() {
+            $(".code img").attr("src", '/ajax/ajaxValidateCode.ashx?flag=' + Math.random());
+        }
+    </script>
+
+
+
+<div id="bsBox" class="bsBox"><div class="bsClose">X</div><div class="bsTop"><div class="bsReturn">选择其他平台 &gt;&gt;</div><span style="margin-left:15px;">分享到</span><span class="bsPlatName"></span></div><div class="bsFrameDiv"><iframe class="bShareFrame" name="bsFrame838" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div><div id="bsMorePanel" style="display: none;"></div></div><div id="ads"></div><div id="bsPanelHolder"><div id="bsPanel" style="display:none;"><div class="bsTitle"><a style="float:left;height:20px;line-height:20px;font-weight:bold;" class="bsSiteLink" target="_blank" href="http://www.bshare.cn/intro">分享到</a><a class="bsSiteLink" style="cursor:pointer;float:right;height:20px;line-height:20px;font-weight:bold;" onclick="document.getElementById(&#39;bsPanel&#39;).style.display=&#39;none&#39;;">X</a><div class="bsClear"></div></div><div class="bsClear"></div><div style="padding-left:8px;background:#fff;*height:244px;"><div style="height:47px;border-bottom:1px #ccc solid;padding:4px 0 4px 16px;margin-right:8px;_padding-left:12px;"><div class="bsRlogo" onmouseover="javascript:this.className=&#39;bsRlogoSel&#39;" onmouseout="javascript:this.className=&#39;bsRlogo&#39;"><a href="javascript:;" onclick="javascript:bShare.share(event,&#39;qqmb&#39;);return false;" style="text-decoration:none;line-height:120%;"><div style="cursor:pointer;width:24px;height:24px;margin:0 18px 2px;background:url(//static.bshare.cn/frame/images//logos/m2/qqmb.gif) no-repeat;"></div><div style="cursor:pointer;text-align:center;width:60px;height:16px !important;overflow:hidden;color:inherit;white-space:nowrap;line-height:120% !important">腾讯微博</div></a></div><div class="bsRlogo" onmouseover="javascript:this.className=&#39;bsRlogoSel&#39;" onmouseout="javascript:this.className=&#39;bsRlogo&#39;"><a href="javascript:;" onclick="javascript:bShare.share(event,&#39;bsharesync&#39;);return false;" style="text-decoration:none;line-height:120%;"><div style="cursor:pointer;width:24px;height:24px;margin:0 18px 2px;background:url(//static.bshare.cn/frame/images//logos/m2/bsharesync.gif) no-repeat;"></div><div style="cursor:pointer;text-align:center;width:60px;height:16px !important;overflow:hidden;color:inherit;white-space:nowrap;line-height:120% !important">一键通</div></a></div><div class="bsRlogo" onmouseover="javascript:this.className=&#39;bsRlogoSel&#39;" onmouseout="javascript:this.className=&#39;bsRlogo&#39;"><a href="javascript:;" onclick="javascript:bShare.share(event,&#39;sinaminiblog&#39;);return false;" style="text-decoration:none;line-height:120%;"><div style="cursor:pointer;width:24px;height:24px;margin:0 18px 2px;background:url(//static.bshare.cn/frame/images//logos/m2/sinaminiblog.gif) no-repeat;"></div><div style="cursor:pointer;text-align:center;width:60px;height:16px !important;overflow:hidden;color:inherit;white-space:nowrap;line-height:120% !important">新浪微博</div></a></div></div><div class="bsLogoLink"><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="QQ空间" onclick="javascript:bShare.share(event,&#39;qzone&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//slogos_sprite8.png) no-repeat 0 -1566px;">QQ空间</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="搜狐微博" onclick="javascript:bShare.share(event,&#39;sohuminiblog&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//slogos_sprite8.png) no-repeat 0 -1800px;">搜狐微博</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="新华微博" onclick="javascript:bShare.share(event,&#39;xinhuamb&#39;);return false;" style="color:red;background:url(//static.bshare.cn/frame/images//logos/s4/xinhuamb.png) no-repeat;">新华微博</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="手机" onclick="javascript:bShare.share(event,&#39;shouji&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//slogos_sprite8.png) no-repeat 0 -1710px;">手机</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="网易微博" onclick="javascript:bShare.share(event,&#39;neteasemb&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//slogos_sprite8.png) no-repeat 0 -1332px;">网易微博</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="开心网" onclick="javascript:bShare.share(event,&#39;kaixin001&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//slogos_sprite8.png) no-repeat 0 -1008px;">开心网</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="豆瓣网" onclick="javascript:bShare.share(event,&#39;douban&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//slogos_sprite8.png) no-repeat 0 -540px;">豆瓣网</a></div></div><div class="bsLogoLink"><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="手机快传" onclick="javascript:bShare.share(event,&#39;189share&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//logos/s4/189share.png) no-repeat;">手机快传</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="人人网" onclick="javascript:bShare.share(event,&#39;renren&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//slogos_sprite8.png) no-repeat 0 -1674px;">人人网</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="天涯" onclick="javascript:bShare.share(event,&#39;tianya&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//slogos_sprite8.png) no-repeat 0 -1890px;">天涯</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="凤凰微博" onclick="javascript:bShare.share(event,&#39;ifengmb&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//slogos_sprite8.png) no-repeat 0 -918px;">凤凰微博</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="朋友网" onclick="javascript:bShare.share(event,&#39;qqxiaoyou&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//slogos_sprite8.png) no-repeat 0 -1548px;">朋友网</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="微信" onclick="javascript:bShare.share(event,&#39;weixin&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//logos/s4/weixin.png) no-repeat;">微信</a></div><div class="bsLogo" onmouseover="javascript:this.className=&#39;bsLogoSel&#39;" onmouseout="javascript:this.className=&#39;bsLogo&#39;"><a href="javascript:;" title="QQ好友" onclick="javascript:bShare.share(event,&#39;qqim&#39;);return false;" style="background:url(//static.bshare.cn/frame/images//logos/s4/qqim.png) no-repeat;">QQ好友</a></div></div><div class="bsClear"></div></div><div style="height:20px;line-height:20px;padding:0 8px;border-top:1px solid #e8e8e8;color:#666;background:#f2f2f2;"><div class="buzzButton" style="float:left;">更多平台... <font style="font-weight:normal;">(133)</font></div><div id="bsPower" style="float:right;text-align:right;overflow:hidden;height:100%;"><a class="bsSiteLink" style="font-size:10px;vertical-align:text-bottom;line-height:24px;cursor:pointer;" href="http://www.bshare.cn/" target="_blank"><span style="font-size:10px;vertical-align:text-bottom;"><span style="color:#f60;">b</span>Share</span></a></div></div></div></div></body></html>

@@ -2,14 +2,74 @@
 /* CSS Document */
 body{
 	font-family:Arial, Helvetica, "微软雅黑";
+	width:100%;
 	}
+	
+	.header, .main, .footer, .slideBox, .page_banner,.banner_wrap {
+	margin: 0 auto;
+	width: 100%;      /* 调整全局的宽度 必须是10 的倍数 */
+	position: relative;
+	}
+
+
 .clear {
 	clear:both;	/*控制分类后，各行高度不一样对不齐问题*/
 	width:100%;
 	height:0px;
 	font-size:0;
-	overflow:hidden;
 }
+
+/* clearfix
+--------------------------------------------------------------------*/
+.clear:after,.main:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clear {
+	clear:both;	/*控制分类后，各行高度不一样对不齐问题*/
+	width:100%;
+	height:0px;
+	font-size:0;
+	overflow:hidden;	/*控制分类后，各行高度不一样对不齐问题*/
+}
+.clear,.main {display: inline-block;}/*IE7用*/
+* html .clear,* html .main { zoom: 1; display: inline-block;}/* Hides from IE-mac \*/
+.clear,.main{ display:block;}/* End hide from IE-mac */
+.clear {/*clear: both;height:1px;margin-top:-1px;overflow:hidden;*/}
+.zoom{ zoom: 1; overflow: hidden;}
+
+/* link   全局链接样式  
+--------------------------------------------------------------------*/
+a:link {
+	color: #333;
+	text-decoration: none;
+	transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+a:visited {
+	color: #333;
+	text-decoration: none;
+	transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+a:active {
+	color: #333;
+	text-decoration: none;
+	transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+/* link   全局链接样式  
+--------------------------------------------------------------------*/
+
 .header{
 	width:100%;
 	height:78px;
@@ -19,4 +79,106 @@ body{
 	top:0;
 	}
 	
+/* clearfix
+--------------------------------------------------------------------*/
+.clear:after,.main:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clear {
+	clear:both;	/*控制分类后，各行高度不一样对不齐问题*/
+	width:100%;
+	height:0px;
+	font-size:0;
+	overflow:hidden;	/*控制分类后，各行高度不一样对不齐问题*/
+}
+.clear,.main {display: inline-block;}/*IE7用*/
+* html .clear,* html .main { zoom: 1; display: inline-block;}/* Hides from IE-mac \*/
+.clear,.main{ display:block;}/* End hide from IE-mac */
+.clear {/*clear: both;height:1px;margin-top:-1px;overflow:hidden;*/}
+.zoom{ zoom: 1; overflow: hidden;}
 
+
+/* footer
+--------------------------------------------------------------------*/
+.footer{
+	width:100%;
+	height:350px;
+	background:url(../img/footer.jpg);
+	}
+	.footer_m{
+		width:1100px;
+		height:200px;
+		margin:20px auto;
+		padding-top:60px;
+		padding-bottom:20px;
+		}
+		
+.footer_m .left{ width:700px; height:auto; float:left;height:220px;overflow:hidden;padding:0;}
+.footer_m  .left .list{ float:left;text-decoration:none;list-style-type:none;}
+.footer_m  .left .list ul{ width:135; text-align:left; float:left;}
+.footer_m  .left .list ul .top{ margin-bottom:26px;}
+.footer_m  .left .list ul .top a{ display:block; color:#fff; font-size:16px; text-transform:uppercase;}
+.footer_m  .left .list ul li{ width:135px; margin-bottom:12px;list-style-type:none; text-decoration:none;}
+.footer_m  .left .list ul li a{ color:#CCC; font-size:14px;}
+.footer_m  .left .list ul a:hover{ color:#474747;}
+				
+					
+	.footer_txt{
+		width:350px;
+		float:left;
+		height:250px;
+		overflow:hidden;
+		position:relative;
+		margin-right:50px;
+		display:block;
+	}
+		.footer_txt h3{
+			font-size:18px;
+			line-height:20px;
+			color:#fff;
+			}
+		
+		.footer_txt p{
+			font-size:14px;
+			color:#fff;
+			text-transform:uppercase;
+			margin-bottom:20px;
+			}
+			.footer_txt span{
+				margin:8px;
+				}
+				
+		.footer_bot{
+			bottom:0;
+			background:#000;
+			width:100%;
+			height:50px;
+			}
+			.footer_bot p{
+				width:1100px;
+				color:#CCC;
+				font-size:16px;
+				line-height:30px;
+				margin:0 auto;
+				padding:0;}
+				
+				
+				
+				/*在线客服css-----------------------*/
+.side{
+	position: fixed;
+	width: 54px;
+	height: 275px;
+	right: 0;
+	z-index: 1000;
+	bottom: 100px;
+}
+.side ul li{width:54px;height:54px;float:left;position:relative;border-bottom:1px solid #444; text-decoration:none; list-style:none;}
+.side ul li .sidebox{position:absolute;width:54px;height:54px;top:0;right:0;transition:all 0.3s;background:#000;opacity:0.8;filter:Alpha(opacity=80);color:#fff;font:14px/54px "微软雅黑";overflow:hidden;}
+.side ul li .sidetop{width:54px;height:54px;line-height:54px;display:inline-block;background:#000;opacity:0.8;filter:Alpha(opacity=80);transition:all 0.3s;}
+.side ul li .sidetop:hover{background:#31659c;opacity:1;filter:Alpha(opacity=100);}
+.side ul li img{float:left;}

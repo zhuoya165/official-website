@@ -11,6 +11,28 @@ body{
 	font-size:0;
 }
 
+/* clearfix
+--------------------------------------------------------------------*/
+.clear:after,.main:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clear {
+	clear:both;	/*控制分类后，各行高度不一样对不齐问题*/
+	width:100%;
+	height:0px;
+	font-size:0;
+	overflow:hidden;	/*控制分类后，各行高度不一样对不齐问题*/
+}
+.clear,.main {display: inline-block;}/*IE7用*/
+* html .clear,* html .main { zoom: 1; display: inline-block;}/* Hides from IE-mac \*/
+.clear,.main{ display:block;}/* End hide from IE-mac */
+.clear {/*clear: both;height:1px;margin-top:-1px;overflow:hidden;*/}
+.zoom{ zoom: 1; overflow: hidden;}
+
 /* link   全局链接样式  
 --------------------------------------------------------------------*/
 a:link {
@@ -222,62 +244,23 @@ a:active {
 	height:200px;
 	}
 	.footer_m{
-		width:1147px;
+		width:1145px;
 		height:200px;
 		margin:10px auto;
 		}
-	.footer_link{
-		width:700px;
-		float:left;
-		height:200px;
-		overflow:hidden;
-		position:relative;
-		display:block;
-		}
-		.footer_link li{
-			display:inline-block;
-			margin:0 85px 0 0;
-			font-size:16px;
-			text-transform:uppercase;
-			height:30px;
-			width:auto;
-			}
-			.footer_link li a{
-				color:#888;
-				text-decoration:none;
-				list-style-type:none;
-				}
-			.footer_link li a:hover,.footer_link li:active{
-				color:#474747;
-				text-decoration:none;
-				list-style-type:none;
-				}	
-		.footer_link li ul{
-			display:inline-block;
-			padding:20px 0 0 0;
-			position:absolute;
-			}
-			.footer_link li ul li{
-				font-size:14px;
-				line-height:14px;
-				color:#999;
-				display:inline-block;
-				height:30px;
-				width:100%;
-				padding:0;
-				margin:0 85px 0 0;
-				}
-				.footer_link li ul li a{
-					color:#999;
-					}
-				.footer_link li ul li a:hover,.footer_link li ul li a:active{
-					color:#474747;
-					text-decoration:none;
-					list-style-type:none;
-					}
+	.footer_m .left{ width:700px; height:auto; float:left;height:200px;overflow:hidden;padding:0;}
+.footer_m  .left .list{ float:left;text-decoration:none;list-style-type:none;}
+.footer_m  .left .list ul{ width:135; text-align:left; float:left;}
+.footer_m  .left .list ul .top{ margin-bottom:26px;}
+.footer_m  .left .list ul .top a{ display:block; color:#474747; font-size:16px; text-transform:uppercase;}
+.footer_m  .left .list ul li{ width:135px; margin-bottom:12px;list-style-type:none; text-decoration:none;}
+.footer_m  .left .list ul li a{ color:#999; font-size:14px;}
+.footer_m  .left .list ul a:hover{ color:#CCC;}
+	
+	
 					
 					
-<!--页脚留言---------------------	-->	
+/*--页脚留言---------------------	--*/
 	.footer_submit{
 		width:445px;
 		height:200px;
@@ -303,6 +286,7 @@ a:active {
       .footer_submit_text1 input{
 		    width:135px;
 			line-height:25px;
+			height:25px;
 			font-size:14px;
 			margin-right:10px;
 			color:#ddd;
@@ -400,9 +384,10 @@ a.footer_submit_b:link:hover, a.footer_submit_b:visited:hover {
 			color:#ddd;
 			}
 
-     .sub_submit_text1 input{
+     .sub_submit_text1 .input{
 		    width:350px;
 			line-height:40px;
+			height:40px;
 			font-size:14px;
 			color:#ddd;
 			border:solid #ddd 1px;

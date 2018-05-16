@@ -3,13 +3,13 @@
 <div class="header">
   <div class="navBar">
     <ul class="nav">
-        <li class="m"><h3><a href="#">HOME</a></h3></li>
-        <li class="m"><h3><a href="#">SHOP NOW</a></h3></li>
-        <li class="m"><h3><a href="#">FREE E-CARDS</a></h3></li>
-        <li class="m"><h3><a href="#">RECIPES</a></h3></li>
-        <li class="m"><h3><a href="#">ABOUT OUR COFFEE</a></h3></li>
-        <li class="m"><h3><a href="#">ABOUT US</a></h3></li>
-        <li class="m"><h3><a href="#">CONTACT US</a></h3></li>
+        <li class="m"><h3><a href="../index.html">HOME</a></h3></li>
+        <li class="m"><h3><a href="../show now.html">SHOP NOW</a></h3></li>
+        <li class="m"><h3><a href="../free-E-Cards.html">FREE E-CARDS</a></h3></li>
+        <li class="m"><h3><a href="../news.html">NEWS</a></h3></li>
+        <li class="m"><h3><a href="../recipes.html">RECIPES</a></h3></li>
+        <li class="m"><h3><a href="../about us.html">ABOUT US</a></h3></li>
+        <li class="m"><h3><a href="../contact us.html">CONTACT US</a></h3></li>
     </ul>
   </div>
 </div>
