@@ -16,7 +16,7 @@
       map.enableDoubleClickZoom()
     }
     function addClickHandler(target,window){
-      target.addEventListener("mouseover",function(){
+      target.addEventListener("click",function(){
         target.openInfoWindow(window);
       });
     }
