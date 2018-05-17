@@ -110,7 +110,7 @@
 }
 .scroll {
 	/*width的大小是根据下面li的长度和多少个li而定的，需注意！*/
-	width:2028px;
+	width:2704px;
 	position:absolute;
 	left:0px;
 	top:0px;
