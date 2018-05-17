@@ -6,7 +6,7 @@ $(document).ready(function(){
 	
 	
 		jQuery(".campaign").hover(function(){ jQuery(this).find(".prev,.next").fadeTo("show",0.2) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
-		jQuery(".campaign").slide({ mainCell:".bd ul",effect:"fold", autoPlay:true, delayTime:600, trigger:"click"});
+		jQuery(".campaign").slide({ mainCell:".bd ul",effect:"fold", autoPlay:true, delayTime:300, trigger:"click"});
 	//campaign首页形象图片切换
 	   
 	
@@ -35,6 +35,9 @@ $(document).ready(function(){
 	 jQuery(".focusBox222").slide({ mainCell:".pic",effect:"left", autoPlay:true, delayTime:300});
 	 /*终端形象内页切换*/
 
+
+
+
 /*在线客服*/
 $(document).ready(function(){
 	$(".side ul li").hover(function(){
@@ -44,10 +47,7 @@ $(document).ready(function(){
 	});
 	
 });
-//回到顶部
-function goTop(){
-	$('html,body').animate({'scrollTop':0},600); //滚回顶部的时间，越小滚的速度越快~
-}
+
 /*在线客服*/
 
 

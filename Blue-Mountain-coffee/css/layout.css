@@ -3,6 +3,8 @@
 body{
 	font-family:Arial, Helvetica, "微软雅黑";
 	width:100%;
+	margin:0;
+	padding:0;
 	}
 	
 	.header, .main, .footer, .slideBox, .page_banner,.banner_wrap {
@@ -177,7 +179,8 @@ a:active {
 	z-index: 1000;
 	bottom: 100px;
 }
-.side ul li{width:54px;height:54px;float:left;position:relative;border-bottom:1px solid #444; text-decoration:none; list-style:none;}
+
+.side ul li{width:54px;height:54px;float:left;position:relative;border-bottom:1px solid #444;text-decoration:none; list-style:none;}
 .side ul li .sidebox{position:absolute;width:54px;height:54px;top:0;right:0;transition:all 0.3s;background:#000;opacity:0.8;filter:Alpha(opacity=80);color:#fff;font:14px/54px "微软雅黑";overflow:hidden;}
 .side ul li .sidetop{width:54px;height:54px;line-height:54px;display:inline-block;background:#000;opacity:0.8;filter:Alpha(opacity=80);transition:all 0.3s;}
 .side ul li .sidetop:hover{background:#31659c;opacity:1;filter:Alpha(opacity=100);}

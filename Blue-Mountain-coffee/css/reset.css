@@ -34,7 +34,7 @@
 }
 .index_case {
 	width: 1200px;
-	margin: 40px 35px auto;
+	margin: 0 auto;
 }
 .index_case_nav {
 	text-align: center;
@@ -87,6 +87,7 @@
 	overflow: hidden;
 }
 .index_case_list ul {
+	padding:0 15px;
 	overflow: hidden;
 	zoom: 1;
 }
@@ -837,28 +838,29 @@
 			margin-bottom:10px;
 			}
 		.sub_submit_text1{
-			width:373px;
+			width:353px;
 			height:40px;
 			color:#ddd;
 			margin:20px 0;
 			border:solid #ddd 1px;
 			line-height:40px;
 			font-size:14px;
+			padding:0 10px;
+			font-family:Arial, Helvetica, "微软雅黑";
 			}
 			
 			.sub_submit_text2{
-				width:1189px;
+				width:1169px;
 				height:100px;
 				margin:5px 0 auto;
+				padding:0 10px;
+				font-size:14px;
+				border:solid #ddd 1px;
+				line-height:20px;
 				color:#ddd;
+				font-family:Arial, Helvetica, "微软雅黑";
 				}
-				.sub_submit .textarea{
-					border:solid #ddd 1px;
-					line-height:20px;
-					width:1189px;
-				height:100px;
-				font-size:16px;
-					}
+				
 				.sub_submit_b{
 					width:1194px;
 					height:35px;
@@ -877,7 +879,7 @@ a.sub_submit_b:link, a.sub_submit_b:visited {
   position: relative;
   display: block;
   width: 1194px;
-  border: 1.5px solid #ddd;
+  border: 1px solid #ddd;
   color: #a0a0a0;
   text-align: center;
   text-decoration: none;
@@ -898,6 +900,7 @@ a.sub_submit_b:link:hover, a.sub_submit_b:visited:hover {
   color:#fff;
   font-weight:14px;
   background:#31659c;
+  border: 1px solid #31659c;
 }
 
 

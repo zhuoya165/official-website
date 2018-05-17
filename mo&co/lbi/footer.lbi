@@ -9,9 +9,9 @@
         <ul>
          <li class="top"><a href="../product.html">产品中心</a></li>
           <li><a href="../product.html">热卖服装</a></li>
-          <li><a href="../product.html">新品到货</a></li>
-          <li><a href="../product.html">畅销服装</a></li>
-          <li><a href="../product.html">正在出售</a></li>
+          <li><a href="../product2.html">新品到货</a></li>
+          <li><a href="../product3.html">畅销服装</a></li>
+          <li><a href="../product4.html">正在出售</a></li>
         </ul>
       </li>
       <li class="list">
@@ -25,10 +25,9 @@
       <li class="list">
           <ul>
           <li class="top"><a href="../news.html">新闻资讯</a></li>
-            <li><a href="../news.html">特色项目</a></li>
             <li><a href="../news.html">公司资讯</a></li>
-            <li><a href="../news.html">行业资讯</a></li>
-            <li><a href="../news.html">媒体报道</a></li>
+            <li><a href="../news2.html">行业资讯</a></li>
+            <li><a href="../news3.html">媒体报道</a></li>
           </ul>
       </li>
       <li class="list">
