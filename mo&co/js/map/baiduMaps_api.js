@@ -16,7 +16,7 @@
       map.enableDoubleClickZoom()
     }
     function addClickHandler(target,window){
-      target.addEventListener("click",function(){
+      target.addEventListener("mouseover",function(){
         target.openInfoWindow(window);
       });
     }
@@ -31,7 +31,7 @@
         })});
         var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
         var opts = {
-          width: 200,
+          width: 300,
           title: markers[index].title,
           enableMessage: false
         };
