@@ -1,0 +1,552 @@
+.cards .card .arrow,
+.cards .card .arrow svg.arr,
+.cards .card .arrow svg.play,
+.loader,
+.position-center,
+a.arr svg.circle,
+a.arr svg.circle-border,
+a.arr svg.icon,
+div.arr svg.circle,
+div.arr svg.circle-border,
+div.arr svg.icon,
+input[type=checkbox]:checked:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%)
+}
+
+svg.circle-border,
+svg.circle-timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box
+}
+
+svg.circle-border {
+    height: 60px;
+    width: 60px;
+    stroke-width: 1px;
+    stroke: rgba(86, 128, 141, .2);
+    transform: translate(-50%, -50%);
+    transition: stroke-width .3s ease, stroke .3s ease
+}
+
+svg.circle-timer {
+    height: 60px;
+    width: 60px;
+    stroke-width: 2px;
+    stroke-dasharray: 190px;
+    stroke-dashoffset: 190px;
+    stroke: #fff;
+    transform: translate(-50%, -50%) rotate(-90deg)
+}
+
+svg.circle-timer.white {
+    stroke: #fff
+}
+
+svg.circle-timer.timer10 {
+    transition: stroke-dashoffset 10s linear;
+    stroke-dashoffset: 0
+}
+
+svg.circle-timer.timer5 {
+    transition: stroke-dashoffset 5s linear;
+    stroke-dashoffset: 0
+}
+
+svg.circle-timer.timer2 {
+    transition: stroke-dashoffset 2s linear;
+    stroke-dashoffset: 0
+}
+
+svg.circle-timer.timer1 {
+    transition: stroke-dashoffset 1s linear;
+    stroke-dashoffset: 0
+}
+
+a.arr,
+div.arr {
+    position: relative;
+    display: block;
+    height: 60px;
+    width: 60px;
+    cursor: pointer
+}
+
+a.arr svg.circle,
+a.arr svg.circle-border,
+div.arr svg.circle,
+div.arr svg.circle-border {
+    height: 60px;
+    width: 60px;
+    stroke-width: 1px;
+    stroke: rgba(51, 51, 51, .2);
+    transition: stroke .3s ease, stroke-width .3s ease
+}
+
+a.arr svg.icon,
+div.arr svg.icon {
+    height: 24px;
+    width: 24px;
+    fill: #4b575c
+}
+
+a.arr.close svg.icon,
+div.arr.close svg.icon {
+    transition: transform .3s ease
+}
+
+a.arr.close:hover svg.circle,
+div.arr.close:hover svg.circle {
+    stroke-width: 1.5px;
+    stroke: #4b575c
+}
+
+a.arr:hover .circle-border,
+div.arr:hover .circle-border {
+    stroke-width: 1.5px;
+    stroke: #4b575c
+}
+
+.all-design {
+    width: 356px;
+    height: 96px;
+    background: #7a838c;
+    left: 296px;
+    position: absolute;
+    text-align: center;
+    line-height: 96px;
+    color: #e3f1f6;
+    font-size: 22px;
+}
+
+
+.floating-title .blue,
+.floating-title .white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.floating-title .blue span,
+.floating-title .white span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.floating-title .blue {
+    color: #e3f1f6;
+}
+
+.floating-title .white {
+    color: #fff;
+    height: 10%;
+    top: 90%
+}
+
+.floating-title .white span {
+    transform: translateY(-90%)
+}
+
+.cards {
+    position: absolute;
+    top: 145px;
+    right: 0;
+    width: 100%;
+    height: 340px;
+    font-size: 0;
+    overflow: hidden
+}
+
+.cards div.arr.back2first {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 50%;
+    display: none;
+    z-index: 1
+}
+
+.cards .card,
+.cards .card .visual {
+    z-index: 5;
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 100%
+}
+
+
+
+.cards .card {
+    display: inline-block;
+    width: 320px
+}
+
+.cards .card.animated {
+    transition: transform 1s ease
+}
+
+.cards .card .visual {
+    width: 100%;
+    background-color: #f5f5f5;
+    transition: width 1s ease;
+    cursor: pointer
+}
+
+.cards .card .visual .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    transition: opacity 1s ease;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center
+}
+
+.cards .card .visual .name,
+.cards .card .visual .time {
+    font-size: 14px;
+    line-height: .71;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    bottom: 32px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s ease
+}
+
+.cards .card .visual .name {
+    left: 32px
+}
+
+.cards .card .visual .time {
+    right: 32px
+}
+
+
+
+.cards .card .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateX(0);
+    transition: transform 1s ease
+}
+
+.cards .card .content .content-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 80px 100px 108px 100px;
+    box-sizing: border-box;
+    background-color: #fff
+}
+
+.cards .card .content .content-box .title {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-family: History;
+    color: #373f48;
+}
+
+.cards .card .content .content-box .big-title {
+    font-size: 30px;
+    color: #373f48;
+    margin-top: 24px;
+}
+
+.cards .card .content .content-box ul {
+    position: absolute;
+    display: block;
+    padding: 0;
+    margin: 60px 0 0;
+    left: 48px;
+    bottom: 56px
+}
+
+.cards .card .content .content-box ul li {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 10px;
+    padding-bottom: 24px
+}
+
+.cards .card .content .content-box ul li span {
+    display: inline;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 10px;
+    margin-right: 5px
+}
+
+.cards .card .content .content-box ul li:last-child {
+    padding-bottom: 0
+}
+
+.cards .card .content .content-box .text {
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    padding: 25px 100px 25px 100px;
+    width: 100%;
+    color: #7a838c;
+    box-sizing: border-box;
+    line-height: 34px;
+}
+
+.cards .card .content .content-box .design-button {
+    display: block;
+    width: 182px;
+    height: 36px;
+    text-align: left;
+    line-height: 36px;
+    padding-left: 40px;
+    /* padding: 10px 34px 10px 40px; */
+    border: 1px solid #373f48;
+    bottom: 75px;
+    color: #373f48;
+    font-size: 16px;
+    position: absolute;
+}
+
+.cards .card .content .content-box i {
+    width: 24px;
+    height: 14px;
+    display: inline-block;
+    top: 50%;
+    margin-left: 20px;
+    margin-top: -7px;
+    background: url(../Home_files/24x14.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    transition: .3s linear;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+
+
+.cards .card .content .content-box .design-button:hover i{
+    margin-left: 80px;
+}
+
+.cards .card .content .content-box .design-button p {
+    color: #373f48;
+}
+
+
+.cards .card .arrow {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    left: 0;
+    right: auto;
+    opacity: 1;
+    transition: left 1s ease, opacity 1s ease, width 1s ease, height 1s ease
+}
+
+.cards .card .arrow svg.circle-border {
+    opacity: 0;
+    transition: opacity 1s ease, stroke .3s ease, stroke-width .3s ease
+}
+
+.cards .card .arrow svg.play {
+    height: 24px;
+    width: 24px;
+    fill: #fff;
+    opacity: 0;
+    transition: opacity .3s ease
+}
+
+.cards .card .arrow svg.arr {
+    height: 24px;
+    width: 24px;
+    opacity: 1;
+    transition: opacity .3s ease
+}
+
+.cards .card .arrow.small {
+    height: 60px;
+    width: 60px
+}
+
+.cards .card.right .arrow {
+    left: 100%
+}
+
+.cards .card.right .arrow .arr {
+    transform: translate(-50%, -50%) rotate(180deg)
+}
+
+.cards .card.open .content {
+    transform: translateX(100%)
+}
+
+.cards .card.active.bigger .arrow {
+    opacity: 0
+}
+
+.cards .card.active.smaller .arrow {
+    left: 50%;
+    width: 88px;
+    height: 88px
+}
+
+.cards .card.active.smaller .arrow:hover {
+    width: 88px;
+    height: 88px
+}
+
+.cards .card.active.smaller .arrow:hover svg.circle-border {
+    stroke: #333;
+    stroke-width: 2px
+}
+
+.cards .card.active.smaller .arrow svg.circle-border,
+.cards .card.active.smaller .arrow svg.play {
+    opacity: 1
+}
+
+.cards .card.active.smaller .arrow svg.arr {
+    opacity: 0
+}
+
+.cards .card.active .visual {
+    cursor: default
+}
+
+.cards .card.active .visual .img,
+.cards .card.active .visual .name,
+.cards .card.active .visual .time {
+    opacity: 1
+}
+
+.cards .card.active.with-video {
+    cursor: pointer
+}
+
+ul.dots {
+    position: absolute;
+    right: 3.75%;
+    bottom: -10px;
+    font-size: 0;
+    white-space: nowrap;
+    height: 60px;
+    z-index: 20
+}
+
+ul.dots li.dot {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    cursor: pointer;
+    transform: translateY(-50%);
+    height: 24px;
+    width: 24px;
+    transition: width .3s ease, height .3s ease
+}
+
+ul.dots li.dot .bullet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #fff;
+    height: 4px;
+    width: 4px;
+    opacity: 1;
+    transition: opacity .3s ease, background-color .3s ease
+}
+
+ul.dots li.dot .circle-border,
+ul.dots li.dot .number {
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform .3s ease
+}
+
+ul.dots li.dot .number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 14px;
+    text-align: center;
+    color: #fff !important;
+}
+
+#LZ,
+.LZ {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+ul.dots li.dot .circle-timer {
+    transform: translate(-50%, -50%) scale(0) rotate(-90deg)
+}
+
+ul.dots li.dot:hover .bullet {
+    background-color: #fff
+}
+
+ul.dots li.dot.active {
+    height: 60px;
+    width: 60px
+}
+
+ul.dots li.dot.active .bullet {
+    opacity: 0
+}
+
+ul.dots li.dot.active .circle-border {
+    transform: translate(-50%, -50%) scale(1)
+}
+
+ul.dots li.dot.active .circle-timer {
+    transform: translate(-50%, -50%) scale(1) rotate(-90deg)
+}
+
+ul.dots li.dot.active .number {
+    transform: translate(-50%, -50%) scale(1)
+}

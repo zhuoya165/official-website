@@ -1,0 +1,316 @@
+.slider .additional-stage .item,
+.slider .additional-stage .item .image,
+.slider .stage .item,
+.slider .stage .item .image,
+section.contacts .office .office-box,
+section.interiors .slider .stage .item,
+section.location .map-overlay .dot {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.slider .additional-stage,
+.slider .additional-stage .item,
+.slider .stage,
+.slider .stage .item,
+section.advantages .floating-layer-1,
+section.interiors .slider .stage,
+section.interiors .slider .stage .item,
+section.names-collection .floating-layer-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+section.advantages {
+    position: relative;
+    width: 100%;
+    height: 880px;
+}
+
+section.advantages .cards {
+    top: 210px;
+}
+
+section.advantages ul.dots {
+   
+}
+
+section.advantages .floating-title {
+    top: 108px
+}
+
+section.advantages .floating-layer-1 {
+    height: 100%;
+    background: #8b928a url(../Home_Files/casebg.png) center center;
+    background-size: cover;
+}
+
+section.advantages .floating-layer-2 {
+    position: relative;
+    height: 100%
+}
+
+section.advantages .content a {
+    color: #7ea8b9;
+    text-decoration: none;
+    transition: .3s;
+    display: inline-block;
+    border-bottom: 1px solid transparent
+}
+
+section.advantages .content a:hover {
+    border-bottom: 1px solid rgba(152, 188, 201, .5)
+}
+
+
+
+section.flats-collection {
+    position: relative;
+    width: 100%;
+    padding: 90px 0 48px;
+    background-color: #e3f1f6;
+    text-align: right
+}
+
+section.flats-collection .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    max-width: 1660px
+}
+
+section.flats-collection .container .link {
+    margin-top: 60px
+}
+
+section.flats-collection .building {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    padding: 0;
+    margin: 0 72px 48px 0;
+    line-height: 0
+}
+
+@media all and (min-width:1440px) {
+    section.flats-collection .building {
+        margin-right: 88px
+    }
+}
+
+section.flats-collection .building svg.building {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    fill: #C9E3EA
+}
+
+section.contacts {
+    position: relative;
+    width: 100%;
+    height: 670px;
+    padding-top: 72px
+}
+
+section.contacts .thank-box {
+    left: 0;
+    top: 0
+}
+
+section.contacts .container {
+    transition: opacity .5s ease;
+    opacity: 1
+}
+
+section.contacts.map-opened .container {
+    opacity: 0
+}
+
+section.contacts.map-closing .container {
+    transition-delay: .4s
+}
+
+section.contacts form {
+    position: relative;
+    display: block;
+    width: 537px;
+    font-size: 0;
+    margin-top: 60px
+}
+
+section.contacts form div.input.name {
+    width: 320px
+}
+
+section.contacts form div.input.phone {
+    width: 173px;
+    margin-left: 40px
+}
+
+section.contacts form div.input.message {
+    margin-top: 20px
+}
+
+section.contacts form div.input.agree {
+    margin: 40px 0 60px
+}
+
+section.contacts .office {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 670px;
+    background-color: #30383b;
+    font-size: 0;
+    white-space: nowrap;
+    z-index: 10
+}
+
+section.contacts .office .office-box {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 367px;
+    height: 100%;
+    z-index: 5;
+    overflow: hidden;
+    background-image: url(/assets/public/images/office.png);
+    background-color: #415861
+}
+
+section.contacts .office .office-box:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #30383b;
+    opacity: .4;
+    z-index: 3
+}
+
+section.contacts .office .office-box video {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: auto;
+    z-index: 2
+}
+
+section.contacts .office .office-box .title {
+    position: absolute;
+    top: 72px;
+    left: 14%;
+    color: #fff;
+    font-family: History, sans-serif;
+    font-size: 32px;
+    letter-spacing: 2.4px;
+    line-height: 48px;
+    z-index: 4
+}
+
+section.contacts .office .office-box .phone-and-address {
+    position: absolute;
+    bottom: 72px;
+    left: 14%;
+    color: #fff;
+    z-index: 4
+}
+
+section.contacts .office .office-box .phone-and-address .phone {
+    position: relative;
+    display: block;
+    font-size: 24px;
+    font-family: History, sans-serif;
+    line-height: 48px
+}
+
+section.contacts .office .office-box .phone-and-address .address {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    font-family: "Open Sans"
+}
+
+section.contacts .office .contact-map {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: width 1s ease
+}
+
+section.contacts .office .contact-map .map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%
+}
+
+section.contacts .office .show-on-map {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 100%;
+    cursor: pointer;
+    transition: .3s
+}
+
+section.contacts .office .show-form {
+    position: absolute;
+    top: 0;
+    left: -60px;
+    width: 60px;
+    height: 100%;
+    background-color: #30383b;
+    transform: translateX(60px);
+    transition: transform .5s ease, background-color .3s ease;
+    cursor: pointer;
+    z-index: 1
+}
+
+section.contacts .office .show-form.show {
+    transform: translateX(0)
+}
+
+section.contacts .office .show-form,
+section.contacts .office .show-on-map {
+    letter-spacing: 1.6px
+}
+
+section.contacts .office .show-form .caption,
+section.contacts .office .show-on-map .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 50%;
+    transform: rotate(-90deg) translateX(-50%);
+    color: #fff;
+    font-size: 14px;
+    font-family: History, sans-serif;
+    white-space: nowrap;
+    transition: .3s
+}
+
+section.contacts .office .show-form:hover,
+section.contacts .office .show-on-map:hover {
+    background-color: #eb5c3f
+}
+
+.flat-viewer {
+    display: none
+}
