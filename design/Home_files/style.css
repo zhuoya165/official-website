@@ -3646,6 +3646,7 @@ ul.social_section_1info a:hover {
 		margin:0 auto;
 		padding:0;
 		}
+<<<<<<< HEAD
 		
 .main-content{width: 100%;
  overflow: hidden;}
@@ -3654,3 +3655,14 @@ ul.social_section_1info a:hover {
 width: 100% !important;
 overflow: hidden !important;
 }
+=======
+
+.main-content{
+	width: 100% !important;
+overflow: hidden !important;}
+
+#home{
+width: 100% !important;
+overflow: hidden !important;
+}
+>>>>>>> 98aba3cf101a652d04ce90d0fc8fa9cf90a01039
