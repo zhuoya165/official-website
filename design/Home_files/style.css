@@ -5,7 +5,8 @@ body {
     background: #fff;
     font-family: poppins, sans-serif
 }
-
+.main-content{width: 100%;
+ overflow: hidden;}
 *,
 *:before,
 *:after {
@@ -1274,7 +1275,7 @@ picture img {
 /*--- heart start ---*/
 
 .heart {
-    background: url(../Home_Files/web_heart_animation.png);
+    background: url(../Home_files/web_heart_animation.png);
     background-position: left;
     background-repeat: no-repeat;
     height: 80px;
