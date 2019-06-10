@@ -5,8 +5,7 @@ body {
     background: #fff;
     font-family: poppins, sans-serif
 }
-.main-content{width: 100%;
- overflow: hidden;}
+
 *,
 *:before,
 *:after {
@@ -1329,6 +1328,7 @@ picture img {
     font-family: KaiTi;
     font-size: 22px;
     color: #cb9e82;
+	line-height:30px;
 }
 
 
@@ -3646,3 +3646,6 @@ ul.social_section_1info a:hover {
 		margin:0 auto;
 		padding:0;
 		}
+
+.main-content{width: 100%;
+ overflow: hidden;}
