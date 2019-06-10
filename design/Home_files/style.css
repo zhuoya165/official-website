@@ -3647,5 +3647,6 @@ ul.social_section_1info a:hover {
 		padding:0;
 		}
 
-.main-content{width: 100%;
- overflow: hidden;}
+.main-content{
+	width: 100%;
+overflow: hidden;}
