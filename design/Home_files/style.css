@@ -1252,7 +1252,7 @@ picture img {
 }
 
 .phone-cpy-right div {
-    padding: 10% 0 8% 0;
+    padding: 7% 0 5% 0;
     background: #373f48;
     margin: 0 auto;
 }
@@ -1262,7 +1262,7 @@ picture img {
     border: 1px solid #fff;
     border-radius: 0;
     display: inline-block;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .phone-cpy-right .phone-usp-list-item,
@@ -3646,7 +3646,6 @@ ul.social_section_1info a:hover {
 		margin:0 auto;
 		padding:0;
 		}
-<<<<<<< HEAD
 		
 .main-content{width: 100%;
  overflow: hidden;}
@@ -3655,14 +3654,3 @@ ul.social_section_1info a:hover {
 width: 100% !important;
 overflow: hidden !important;
 }
-=======
-
-.main-content{
-	width: 100% !important;
-overflow: hidden !important;}
-
-#home{
-width: 100% !important;
-overflow: hidden !important;
-}
->>>>>>> 98aba3cf101a652d04ce90d0fc8fa9cf90a01039
