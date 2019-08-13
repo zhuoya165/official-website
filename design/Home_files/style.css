@@ -1130,7 +1130,7 @@ picture img {
 }
 
 .phone-footer-list .img-b {
-    width: 70%;
+    width: 60%;
     height: auto;
     margin: 0 auto;
     background: transparent;
@@ -1536,7 +1536,6 @@ picture img {
 
 .footer_1its {
     background: #fff;
-    padding-top: 42px;
 }
 
 .footer p {
@@ -1554,12 +1553,12 @@ picture img {
 
 .footer-text p {
     float: left;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footer-text {
     padding-left: 156px;
-    padding-top: 160px;
+    padding-top: 20px;
 }
 
 .center {
@@ -1574,11 +1573,12 @@ picture img {
 .top-left,
 .top-right {
     float: left;
+	
 }
+.top-right img{width:165px;height:165px;margin-top:5px;}
 
 .top-left {
     margin-right: 100px;
-    margin-top: 20px;
     color: #373f48;
 }
 
@@ -1610,6 +1610,12 @@ picture img {
     color: rgba(220, 222, 224, 0.58)
 }
 
+.top-left h6{
+	color:#333;
+	font-size:16px;
+	line-height:60px;
+	}
+	
 .top-left p {
     font-size: 22px;
     line-height: 32px;
@@ -1623,11 +1629,11 @@ picture img {
 
 .top-left span,
 .contact .bottom .bottom-1 {
-    background: #373f48;
+    background: #e3e3e3;
     display: block;
-    margin-bottom: 34px;
-    height: 2px;
-    width: 136px;
+    margin-bottom: 32px;
+    height: 1px;
+    width: 220px;
 }
 
 .top-left p:nth-last-child(1),
