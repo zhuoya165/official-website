@@ -1705,10 +1705,21 @@ picture img {
     text-align: center;
 }
 
+.contact .middle p{
+	color:#4E4E4E;
+	font-size:14px;
+	}
+	
+.contact .bottom h6{
+	font-size:18px;
+	text-align:center;
+	line-height:65px;
+	color:#4E4E4E;
+	}
 .contact .bottom p {
-    font-size: 22px;
+    font-size: 16px;
     line-height: 32px;
-    color: #373f48;
+    color:#4E4E4E;
     text-align: center;
 }
 .contact .bottom p:first-child {
@@ -1723,7 +1734,7 @@ picture img {
     float: left;
 }
 .contact .clearfix p {
-    font-size: 18px;
+    font-size: 16px;
     color: #373f48;
     float: left;
 }
@@ -2401,7 +2412,7 @@ h5.mt-0 {
         width: 90%;
     }
     .contact .clearfix p {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 @media screen and (max-width:1080px) {
@@ -2421,7 +2432,7 @@ h5.mt-0 {
         width: 96%;
     }
     .contact .clearfix p {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
@@ -2527,7 +2538,7 @@ h5.mt-0 {
         display: block;
     }
     .contact .bottom p{
-        font-size: 19px;
+        font-size: 14px;
     }
     .contact .bottom p:nth-child(4) {
         color: #7a838c;
